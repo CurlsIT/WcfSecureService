@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSecureService", "WcfSecu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfSecureService.Client", "WcfSecureService.Client\WcfSecureService.Client.csproj", "{D8566A31-F8CE-46F1-A067-4689CEBDDC59}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample certs", "Sample certs", "{78A99830-52E3-4DEF-9BBF-6AF478EEEDF4}"
+	ProjectSection(SolutionItems) = preProject
+		DevCertAuthority.cer = DevCertAuthority.cer
+		ReadMe.txt = ReadMe.txt
+		SampleClientCertificate.pfx = SampleClientCertificate.pfx
+		SampleServiceCertificate.pfx = SampleServiceCertificate.pfx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
